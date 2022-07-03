@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0cec64b4-60a0-467a-a83b-ccca6cf4da51": {
+      "ProjectGuid": "0cec64b4-60a0-467a-a83b-ccca6cf4da51",
+      "DisplayName": "FractalsDrawer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

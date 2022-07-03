@@ -1,0 +1,507 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    x:Class="FractalsDrawer.MainWindow"
+    Title="FractalDrawer"
+    MinWidth="1408"
+    MinHeight="792"
+    ResizeMode="CanResize"
+    SizeChanged="Window_SizeChanged"
+    SizeToContent="WidthAndHeight"
+    mc:Ignorable="d"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+    Background="{DynamicResource MaterialDesignPaper}"
+    TextElement.FontWeight="Medium"
+    FontFamily="{materialDesign:MaterialDesignFont}"
+    WindowStyle="SingleBorderWindow">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            x:Name="TypeTextBlock"
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="20"
+            VerticalAlignment="Center"
+            FontSize="16"
+            TextAlignment="Center"><Run Text="Тип фрактала:"/></TextBlock>
+        <TextBlock
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="20"
+            Grid.ColumnSpan="18"
+            x:Name="ScaleTextBlock"
+            VerticalAlignment="Center"
+            FontSize="16"
+            TextAlignment="Center"><Run Text="Масштаб:"/></TextBlock>
+        <TextBlock
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            Grid.Column="38"
+            Grid.ColumnSpan="10"
+            VerticalAlignment="Center"
+            FontSize="16"
+            TextAlignment="Center"><Run Text="Изображение:"/></TextBlock>
+
+        <Button
+            x:Name="FractalTreeButton"
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            FontSize="13"
+            materialDesign:ButtonAssist.CornerRadius="15"
+            Click="FractalTreeButton_Click" 
+            Content="Дерево"/>
+        <Button
+            x:Name="CochCurveButton"
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.Column="4"
+            Grid.ColumnSpan="4"
+            FontSize="13"
+            materialDesign:ButtonAssist.CornerRadius="15"
+            Click="CochCurveButton_Click" Content="Кривая Коха"/>
+        <Button
+            x:Name="SerpinskiCarpetButton"
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.Column="8"
+            Grid.ColumnSpan="4"
+            FontSize="13"
+            materialDesign:ButtonAssist.CornerRadius="15"
+            Click="SerpinskiCarpetButton_Click" Content="Ковер"/>
+        <Button
+            x:Name="SerpinskiTriangleButton"
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.Column="12"
+            Grid.ColumnSpan="4"
+            FontSize="13"
+            materialDesign:ButtonAssist.CornerRadius="15"
+            Click="SerpinskiTriangleButton_Click" Content="Треугольник"/>
+        <Button
+            x:Name="CantorSetButton"
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.Column="16"
+            Grid.ColumnSpan="4"
+            materialDesign:ButtonAssist.CornerRadius="15"
+            Click="CantorSetButton_Click" Content="Множество"/>
+
+        <Slider
+            x:Name="ScaleSlider"
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.Column="21"
+            Grid.ColumnSpan="17"
+            VerticalAlignment="Center"
+            ValueChanged="ScaleSlider_ValueChanged"/>
+        <Button
+            x:Name="SaveButton"
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.Column="39"
+            Grid.ColumnSpan="8"
+            FontSize="16"
+            materialDesign:ButtonAssist.CornerRadius="15"
+            Click="SaveButton_Click" Content="Сохранить"/>
+
+        <GroupBox
+            Grid.Row="4"
+            Grid.RowSpan="7"
+            Grid.Column="0"
+            Grid.ColumnSpan="20"
+            FontSize="16" Content="Настройка цветов градиента:"/>
+
+        <Ellipse 
+            x:Name="StartColorCircle"
+            Grid.Row="7"
+            Grid.Column="1"
+            StrokeDashCap="Round"
+            StrokeStartLineCap="Round"
+            Stretch="Uniform"
+            VerticalAlignment="Stretch"
+            HorizontalAlignment="Stretch"
+            Fill="Black"/>
+        
+        <TextBlock 
+            Grid.Row="6"
+            Grid.Column="4"
+            Grid.ColumnSpan="2"
+            TextAlignment="Center"
+            VerticalAlignment="Bottom" 
+            Text="R"></TextBlock>
+        
+        <TextBlock 
+            Grid.Row="6"
+            Grid.Column="10"
+            Grid.ColumnSpan="2"
+            TextAlignment="Center"
+            VerticalAlignment="Bottom" 
+            Text="G"></TextBlock>
+        
+        <TextBlock 
+            Grid.Row="6"
+            Grid.Column="16"
+            Grid.ColumnSpan="2"
+            TextAlignment="Center"
+            VerticalAlignment="Bottom" 
+            Text="B"></TextBlock>
+
+        <Slider
+            x:Name="StartRedSlider"
+            Grid.Row="7"
+            Grid.Column="3"
+            Grid.ColumnSpan="4"
+            VerticalAlignment="Center"
+            Minimum="0"
+            Maximum="255"
+            ValueChanged="StartRedSlider_ValueChanged"/>
+        <Slider
+            x:Name="StartGreenSlider"
+            Grid.Row="7"
+            Grid.Column="9"
+            Grid.ColumnSpan="4"
+            VerticalAlignment="Center"
+            Minimum="0"
+            Maximum="255"
+            ValueChanged="StartGreenSlider_ValueChanged"/>
+        <Slider
+            x:Name="StartBlueSlider"
+            Grid.Row="7"
+            Grid.Column="15"
+            Grid.ColumnSpan="4" 
+            VerticalAlignment="Center"
+            Minimum="0"
+            Maximum="255"
+            ValueChanged="StartBlueSlider_ValueChanged"/>
+
+        <Ellipse
+            x:Name="FinalColorCircle"
+            Grid.Row="9"
+            Grid.Column="1"
+            StrokeDashCap="Round"
+            StrokeStartLineCap="Round"
+            Stretch="Uniform"
+            VerticalAlignment="Stretch"
+            HorizontalAlignment="Stretch"
+            Fill="Black"/>
+
+        <Slider
+            x:Name="FinalRedSlider"
+            Grid.Row="9"
+            Grid.Column="3"
+            Grid.ColumnSpan="4"
+            VerticalAlignment="Center"
+            Minimum="0"
+            Maximum="255"
+            ValueChanged="FinalRedSlider_ValueChanged"/>
+        <Slider
+            x:Name="FinalGreenSlider"
+            Grid.Row="9"
+            Grid.Column="9"
+            Grid.ColumnSpan="4"
+            VerticalAlignment="Center"
+            Minimum="0"
+            Maximum="255"
+            ValueChanged="FinalGreenSlider_ValueChanged"/>
+        <Slider
+            x:Name="FinalBlueSlider"
+            Grid.Row="9"
+            Grid.Column="15"
+            Grid.ColumnSpan="4"
+            VerticalAlignment="Center" 
+            Minimum="0"
+            Maximum="255"
+            ValueChanged="FinalBlueSlider_ValueChanged"/>
+
+        <GroupBox
+            Grid.Row="11"
+            Grid.RowSpan="6"
+            Grid.Column="0"
+            Grid.ColumnSpan="20"
+            FontSize="17" Content="Основные настройки фрактала:"/>
+
+        <TextBlock
+            x:Name="LineLengthTextBlock"
+            Grid.Row="13"
+            Grid.Column="1"
+            Grid.ColumnSpan="6"
+            FontSize="15"
+            VerticalAlignment="Bottom"><Run Text="Длина отрезка: 1"/></TextBlock>
+        <TextBlock
+            x:Name="RecursionDepthTextBlock"
+            Grid.Row="15"
+            Grid.Column="1"
+            Grid.ColumnSpan="6"
+            FontSize="15"
+            VerticalAlignment="Bottom"><Run Text="Глубина рекурсии: 1"/></TextBlock>
+
+        <Slider
+            x:Name="LineLengthSlider"
+            Grid.Row="13"
+            Grid.Column="8"
+            Grid.ColumnSpan="11"
+            VerticalAlignment="Bottom"
+            Minimum="1"
+            Maximum="250"
+            ValueChanged="LineLengthSlider_OnValueChanged"/>
+        <Slider
+            x:Name="RecursionDepthSlider"
+            Grid.Row="15"
+            Grid.Column="8"
+            Grid.ColumnSpan="11"
+            Minimum="1"
+            Maximum="10"
+            VerticalAlignment="Bottom"
+            ValueChanged="RecursionDepthSlider_OnValueChanged"/>
+
+        <GroupBox
+            Grid.Column="0"
+            x:Name="TreeGroupBox"
+            Grid.Row="17"
+            Grid.RowSpan="8"
+            Grid.ColumnSpan="20"
+            FontSize="17"
+            IsEnabled="False"
+            Visibility="Collapsed" Content="Настройки фрактального дерева:"/>
+
+        <TextBlock
+            x:Name="TreeTextBlockRatio"
+            Grid.Row="19"
+            Grid.Column="1"
+            Grid.ColumnSpan="7"
+            FontSize="15"
+            IsEnabled="False"
+            Visibility="Collapsed"
+            VerticalAlignment="Bottom"><Run Text="Отношение длин:"/></TextBlock>
+        <TextBlock
+            x:Name="TreeTextBlockLeftAngle"
+            Grid.Row="21"
+            Grid.Column="1"
+            Grid.ColumnSpan="7"
+            FontSize="15"
+            IsEnabled="False"
+            Visibility="Collapsed"
+            VerticalAlignment="Bottom"><Run Text="Левый угол наклона:"/></TextBlock>
+        <TextBlock
+            x:Name="TreeTextBlockRightAngle"
+            Grid.Row="23"
+            Grid.Column="1"
+            Grid.ColumnSpan="7"
+            FontSize="15"
+            IsEnabled="False"
+            TextAlignment="Left"
+            Visibility="Collapsed"
+            VerticalAlignment="Bottom"><Run Text="Правый угол наклона:"/></TextBlock>
+
+        <Slider
+            x:Name="TreeRatioSlider"
+            Grid.Row="19"
+            Grid.Column="8"
+            Grid.ColumnSpan="11"
+            VerticalAlignment="Bottom"
+            IsEnabled="False"
+            Visibility="Collapsed"
+            Minimum="25"
+            Maximum="75"
+            ValueChanged="TreeRatioSlider_OnValueChanged"/>
+        <Slider
+            x:Name="TreeLeftAngleSlider"
+            Grid.Row="21"
+            Grid.Column="8"
+            Grid.ColumnSpan="11"
+            VerticalAlignment="Bottom"
+            IsEnabled="False"
+            Visibility="Collapsed"
+            Minimum="-179"
+            Maximum="179"
+            ValueChanged="TreeLeftAngleSlider_OnValueChanged"/>
+        <Slider
+            x:Name="TreeRightAngleSlider"
+            Grid.Row="23"
+            Grid.Column="8"
+            Grid.ColumnSpan="11"
+            VerticalAlignment="Bottom"
+            IsEnabled="False"
+            Visibility="Collapsed" 
+            Minimum="-179"
+            Maximum="179"
+            ValueChanged="TreeRightAngleSlider_OnValueChanged"/>
+
+
+        <GroupBox
+            Grid.Column="0"
+            x:Name="CantorGroupBox"
+            Grid.Row="17"
+            Grid.RowSpan="8"
+            Grid.ColumnSpan="20"
+            FontSize="17"
+            IsEnabled="False"
+            Visibility="Collapsed" Content="Настройки множества кантора:"/>
+
+        <TextBlock
+            x:Name="CantorTextBlockHeight"
+            Grid.Row="19"
+            Grid.Column="1"
+            Grid.ColumnSpan="6"
+            FontSize="15"
+            IsEnabled="False"
+            Visibility="Collapsed"
+            VerticalAlignment="Bottom"><Run Text="Высота отрезка:"/></TextBlock>
+        <TextBlock
+            x:Name="CantorTextBlockDistance"
+            Grid.Row="21"
+            Grid.Column="1"
+            Grid.ColumnSpan="6"
+            FontSize="15"
+            IsEnabled="False"
+            Visibility="Collapsed"
+            VerticalAlignment="Bottom"><Run Text="Расстояние между:"/></TextBlock>
+
+        <Slider
+            x:Name="CantorHeightSlider"
+            Grid.Row="19"
+            Grid.Column="8"
+            Grid.ColumnSpan="11"
+            VerticalAlignment="Bottom"
+            IsEnabled="False"
+            Visibility="Collapsed"
+            Minimum="1"
+            Maximum="30"
+            ValueChanged="CantorHeightSlider_OnValueChanged"/>
+        <Slider
+            x:Name="CantorDistanceSlider"
+            Grid.Row="21"
+            Grid.Column="8"
+            Grid.ColumnSpan="11"
+            VerticalAlignment="Bottom"
+            IsEnabled="False"
+            Visibility="Collapsed"
+            Minimum="1"
+            Maximum="25"
+            ValueChanged="CantorDistanceSlider_OnValueChanged"/>
+
+        <Button
+            Grid.Column="0"
+            Grid.Row="25"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="20"
+            FontSize="16"
+            VerticalAlignment="Center"
+            materialDesign:ButtonAssist.CornerRadius="15"
+            Click="DrawButton_OnClick" Content="Построить фрактал"/>
+        
+        <ScrollViewer x:Name="ScrollViewer" 
+                      Grid.Row="4"
+                      Grid.Column="20"
+                      Grid.RowSpan="23"
+                      Grid.ColumnSpan="28"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Auto"
+                      VerticalAlignment="Bottom"
+                      HorizontalAlignment="Right"
+                      Margin="2" 
+                      BorderThickness="1" 
+                      Visibility="Visible">
+            <Canvas x:Name="Board">
+                <Canvas.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Canvas.RenderTransform>
+            </Canvas>
+        </ScrollViewer>
+        
+    </Grid>
+</Window>
+
+

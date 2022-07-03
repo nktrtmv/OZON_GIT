@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "380qqrDNnS+PzvYZHJTqkvHT5Qq4nrQ7j2DWxNV7axsPDyEhFIN3giFG2lV106SyFUmL/3SCrqGiw7d7oxnHQg==",
+  "success": true,
+  "projectFilePath": "/Users/nktrtmv/Desktop/HSE/CS-1/Peergrades/Message Service/MessageService/MessageService.csproj",
+  "expectedPackageFiles": [
+    "/Users/nktrtmv/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.14/microsoft.netcore.app.host.osx-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

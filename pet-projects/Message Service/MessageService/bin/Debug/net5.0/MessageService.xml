@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MessageService</name>
+    </assembly>
+    <members>
+        <member name="T:MessageService.Controllers.MessageController">
+            <summary>
+            Контроллер отвечающий за функционал связанный с моделью сообщений.
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.MessageController.SendMessage(System.String,System.String,System.String)">
+            <summary>
+            Обработчик HttpPost для оптравки нового сообщения без темы (e-mail).
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.MessageController.SendMessage(System.String,System.String,System.String,System.String)">
+            <summary>
+            Обработчик HttpPost для оптравки нового сообщения (e-mail).
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.MessageController.GetMessagesBySenderAndReceiver(System.String,System.String)">
+            <summary>
+            Обработчик HttpGet для получения всех сообщений отправленных с определенного адреса на определенный адрес (e-mail).
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.MessageController.GetMessagesBySender(System.String)">
+            <summary>
+            Обработчик HttpGet для получения всех сообщений отправленных с определенного адреса (e-mail).
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.MessageController.GetMessagesByReceiver(System.String)">
+            <summary>
+            Обработчик HttpGet для получения всех сообщений отправленных на определенный адрес (e-mail).
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.MessageController.GetAllMessages">
+            <summary>
+            Обработчик HttpGet для получения всех сообщений (e-mail).
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="T:MessageService.Controllers.ServiceController">
+            <summary>
+            Контроллер отвечающий за функционал связанный с моделями сообщений и пользователей.
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.ServiceController.#cctor">
+            <summary>
+            Инициализирует списки сообщений и пользователей, записывает данные из бд в списки.
+            </summary>
+        </member>
+        <member name="P:MessageService.Controllers.ServiceController.Users">
+            <summary>
+            Пользователи.
+            </summary>
+        </member>
+        <member name="P:MessageService.Controllers.ServiceController.SortedUsers">
+            <summary>
+            Сортированный список пользователей.
+            </summary>
+        </member>
+        <member name="P:MessageService.Controllers.ServiceController.Messages">
+            <summary>
+            Сообщения пользователей.
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.ServiceController.InitializeList">
+            <summary>
+            Обработчик HttpPost для инициализации списков пользователей и сообщений - рандомная генерация.
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.ServiceController.AddNewRandomData">
+            <summary>
+            Добавление новых рандомных пользователей и сообщений.
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.ServiceController.DeleteFilesAndLists">
+            <summary>
+            Удаление всех данных из файлов и списков.
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="T:MessageService.Controllers.UserController">
+            <summary>
+            Контроллер отвечающий за функционал связанный с моделью пользователей.
+            </summary>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.AddNewUser(System.String,System.String)">
+            <summary>
+            Обработчик HttpPost для регистрации нового пользователя в системе.
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.GetUserByMail(System.String)">
+            <summary>
+            Обработчик HttpGet для получения пользователя с введенным адресом e-mail.
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.GetUsers">
+            <summary>
+            Обработчик HttpGet для получения всех пользователей.
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="M:MessageService.Controllers.UserController.GetUsersWithRange(System.Int32,System.Int32)">
+            <summary>
+            Обработчик HttpGet для получения среза списка пользователей (диапазона).
+            </summary>
+            <returns>Контракт результата - ответ на запрос со статусным кодом.</returns>
+        </member>
+        <member name="T:MessageService.Models.EmailException">
+            <summary>
+            Exception выбрасываемый при некорректном адресе e-mail.
+            </summary>
+        </member>
+        <member name="M:MessageService.Models.EmailException.#ctor">
+            <summary>
+            Беспараметрический конструктор.
+            </summary>
+        </member>
+        <member name="M:MessageService.Models.EmailException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Инициаилизирует сериализуемый объект класса.
+            </summary>
+            <param name="info">Объект для сериализации.</param>
+            <param name="context">Контекстная информация.</param>
+        </member>
+        <member name="M:MessageService.Models.EmailException.#ctor(System.String)">
+            <summary>
+            Инициализирует объект класса с сообщением об ошибке.
+            </summary>
+            <param name="message">Сообщение об ошибке.</param>
+        </member>
+        <member name="M:MessageService.Models.EmailException.#ctor(System.String,System.Exception)">
+            <summary>
+            Инициализирует объект класса с сообщением об ошибке и информацией об inner exception.
+            </summary>
+            <param name="message">Сообщение об ошибке.</param>
+            <param name="innerException">Информация об inner exception.</param>
+        </member>
+        <member name="T:MessageService.Models.EmailMessage">
+            <summary>
+            Класс описывающий сообщение e-mail.
+            </summary>
+        </member>
+        <member name="F:MessageService.Models.EmailMessage.Pattern">
+            <summary>
+            Паттерн адреса e-mail.
+            </summary>
+        </member>
+        <member name="P:MessageService.Models.EmailMessage.Subject">
+            <summary>
+            Тема письма.
+            </summary>
+        </member>
+        <member name="P:MessageService.Models.EmailMessage.Message">
+            <summary>
+            Текст письма.
+            </summary>
+        </member>
+        <member name="P:MessageService.Models.EmailMessage.SenderId">
+            <summary>
+            E-mail отправителя.
+            </summary>
+        </member>
+        <member name="P:MessageService.Models.EmailMessage.ReceiverId">
+            <summary>
+            E-mail получателя.
+            </summary>
+        </member>
+        <member name="M:MessageService.Models.EmailMessage.#ctor">
+            <summary>
+            Беспараметрический конструктор.
+            </summary>
+        </member>
+        <member name="M:MessageService.Models.EmailMessage.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Конструктор инициализирующий все свойсвта.
+            </summary>
+            <param name="subject">Тема письма.</param>
+            <param name="message">Текст письма.</param>
+            <param name="senderId">Почта отправителя.</param>
+            <param name="receiverId">Почта получателя.</param>
+        </member>
+        <member name="M:MessageService.Models.EmailMessage.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Конструктор инициализирующий все свойсвта кроме темы письма.
+            </summary>
+            <param name="message">Текст письма.</param>
+            <param name="senderId">Почта отправителя.</param>
+            <param name="receiverId">Почта получателя.</param>
+        </member>
+        <member name="T:MessageService.Models.User">
+            <summary>
+            Класс описывающий пользователя.
+            </summary>
+        </member>
+        <member name="P:MessageService.Models.User.UserName">
+            <summary>
+            Имя пользователя.
+            </summary>
+        </member>
+        <member name="P:MessageService.Models.User.Email">
+            <summary>
+            Адрес почты.
+            </summary>
+            <exception cref="T:MessageService.Models.EmailException">Выбрасывается при присваивании некорректного адреса почты.</exception>
+        </member>
+        <member name="M:MessageService.Models.User.#ctor">
+            <summary>
+            Беспараметрический конструктор.
+            </summary>
+        </member>
+        <member name="M:MessageService.Models.User.#ctor(System.String,System.String)">
+            <summary>
+            Инициализирует объект класса с заданными свойствами.
+            </summary>
+            <param name="username">Имя пользователя.</param>
+            <param name="email">Почта пользователя.</param>
+        </member>
+        <member name="M:MessageService.MethodsForServiceController.GenerateUser(System.Random,System.Collections.Generic.ICollection{MessageService.Models.User})">
+            <summary>
+            Генерация пользователей с помощью <see cref="T:System.Random"/>.
+            </summary>
+            <param name="random">Объект <see cref="T:System.Random"/>.</param>
+            <param name="users">Список пользователей.</param>
+        </member>
+        <member name="M:MessageService.MethodsForServiceController.GetHumoresque(System.Random)">
+            <summary>
+            Получение рандомной ЮМОРЭСКИ!!!
+            </summary>
+            <param name="random">Объект <see cref="T:System.Random"/>.</param>
+            <returns>Рандомную юмореску.</returns>
+        </member>
+        <member name="M:MessageService.MethodsForServiceController.GenerateMessage(System.Random,System.Collections.Generic.ICollection{MessageService.Models.EmailMessage})">
+            <summary>
+            Генерация сообщений с помощью обекта Random.
+            </summary>
+            <param name="random">Объект <see cref="T:System.Random"/>.</param>
+            <param name="messages">Список сообщений.</param>
+        </member>
+        <member name="M:MessageService.MethodsForServiceController.UpdateUsersDatabase(System.Collections.Generic.List{MessageService.Models.User})">
+            <summary>
+            Обновляет базу данных пользователей.
+            </summary>
+        </member>
+        <member name="M:MessageService.MethodsForServiceController.UpdateMessagesDatabase(System.Collections.Generic.List{MessageService.Models.EmailMessage})">
+            <summary>
+            Обновляет базу данных сообщений.
+            </summary>
+        </member>
+        <member name="M:MessageService.MethodsForServiceController.GenerateNewRandomUsersAndMessages(System.Collections.Generic.List{MessageService.Models.User},System.Collections.Generic.List{MessageService.Models.EmailMessage})">
+            <summary>
+            Рандомно генерирует новых пользователей и сообщения.
+            </summary>
+        </member>
+        <member name="T:MessageService.Program">
+            <summary>
+            Основной класс.
+            </summary>
+        </member>
+        <member name="M:MessageService.Program.Main(System.String[])">
+            <summary>
+            Точка входа.
+            </summary>
+            <param name="args">Аргументы.</param>
+        </member>
+        <member name="M:MessageService.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            Метод инициализирующий создание <see cref="N:MessageService"/>.
+            </summary>
+            <param name="args">Аргументы для настройки.</param>
+            <returns>Обьект <see cref="T:Microsoft.Extensions.Hosting.IHostBuilder"/>.</returns>
+        </member>
+        <member name="T:MessageService.Startup">
+            <summary>
+            Класс, отвечающий за запуск и конфигурцию приложения.
+            </summary>
+        </member>
+        <member name="M:MessageService.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Конструктор создания обьекта класса <see cref="T:MessageService.Startup"/>.
+            </summary>
+            <param name="configuration">Конфигурация сервиса.</param>
+        </member>
+        <member name="P:MessageService.Startup.Configuration">
+            <summary>
+            Cвойство с конфигурацией.
+            </summary>
+        </member>
+        <member name="M:MessageService.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services">Сервисы приложения.</param>
+        </member>
+        <member name="M:MessageService.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app">Объект webapplicationbuilder.</param>
+            <param name="env">Environment.</param>
+        </member>
+    </members>
+</doc>

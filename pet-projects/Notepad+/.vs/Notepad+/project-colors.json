@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "78854d4d-3ff3-48a8-b6d7-9631bdcf6fc5": {
+      "ProjectGuid": "78854d4d-3ff3-48a8-b6d7-9631bdcf6fc5",
+      "DisplayName": "Notepad+",
+      "ColorIndex": 0
+    },
+    "857bc2ce-9fed-4d43-a1ee-98b2599e3e5b": {
+      "ProjectGuid": "857bc2ce-9fed-4d43-a1ee-98b2599e3e5b",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

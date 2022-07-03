@@ -1,0 +1,90 @@
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/appsettings.Development.json
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/appsettings.json
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/MessageService.deps.json
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/MessageService.runtimeconfig.json
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/MessageService.runtimeconfig.dev.json
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/MessageService.dll
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/ref/MessageService.dll
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/MessageService.pdb
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.csproj.AssemblyReference.cache
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.AssemblyInfoInputs.cache
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.AssemblyInfo.cs
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.csproj.CoreCompileInputs.cache
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.MvcApplicationPartsAssemblyInfo.cs
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.MvcApplicationPartsAssemblyInfo.cache
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/staticwebassets/MessageService.StaticWebAssets.Manifest.cache
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/staticwebassets/MessageService.StaticWebAssets.xml
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/scopedcss/bundle/MessageService.styles.css
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.RazorTargetAssemblyInfo.cache
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.csproj.CopyComplete
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.dll
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/ref/MessageService.dll
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.pdb
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.genruntimeconfig.cache
+/Users/nktrtmv/Desktop/MessageService/MessageService/bin/Debug/net5.0/MessageService.xml
+/Users/nktrtmv/Desktop/MessageService/MessageService/obj/Debug/net5.0/MessageService.xml
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/appsettings.Development.json
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/appsettings.json
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/MessageService.deps.json
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/MessageService.runtimeconfig.json
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/MessageService.runtimeconfig.dev.json
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/MessageService.dll
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/MessageService.pdb
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/MessageService.xml
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.csproj.AssemblyReference.cache
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.AssemblyInfoInputs.cache
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.AssemblyInfo.cs
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.csproj.CoreCompileInputs.cache
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.MvcApplicationPartsAssemblyInfo.cs
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.MvcApplicationPartsAssemblyInfo.cache
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/staticwebassets/MessageService.StaticWebAssets.Manifest.cache
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/scopedcss/bundle/MessageService.styles.css
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.RazorTargetAssemblyInfo.cache
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.csproj.CopyComplete
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.dll
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/ref/MessageService.dll
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.xml
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.pdb
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/MessageService.genruntimeconfig.cache
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/bin/Debug/net5.0/ref/MessageService.dll
+/Users/nktrtmv/Desktop/C#/Peergrades/MessageService/MessageService/obj/Debug/net5.0/staticwebassets/MessageService.StaticWebAssets.xml
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/appsettings.Development.json
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/appsettings.json
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/MessageService.deps.json
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/MessageService.runtimeconfig.json
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/MessageService.runtimeconfig.dev.json
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/MessageService.dll
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/ref/MessageService.dll
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/MessageService.pdb
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/MessageService.xml
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/Microsoft.OpenApi.dll
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.csproj.AssemblyReference.cache
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.AssemblyInfoInputs.cache
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.AssemblyInfo.cs
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.csproj.CoreCompileInputs.cache
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.MvcApplicationPartsAssemblyInfo.cs
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.MvcApplicationPartsAssemblyInfo.cache
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/staticwebassets/MessageService.StaticWebAssets.Manifest.cache
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/staticwebassets/MessageService.StaticWebAssets.xml
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/scopedcss/bundle/MessageService.styles.css
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.RazorTargetAssemblyInfo.cache
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.csproj.CopyComplete
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.dll
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/ref/MessageService.dll
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.xml
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.pdb
+/Users/nktrtmv/Desktop/HSE/C# 1 Course/Peergrades/Message Service/MessageService/obj/Debug/net5.0/MessageService.genruntimeconfig.cache

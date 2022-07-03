@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractalsDrawer", "FractalsDrawer\FractalsDrawer.csproj", "{0CEC64B4-60A0-467A-A83B-CCCA6CF4DA51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CEC64B4-60A0-467A-A83B-CCCA6CF4DA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEC64B4-60A0-467A-A83B-CCCA6CF4DA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEC64B4-60A0-467A-A83B-CCCA6CF4DA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEC64B4-60A0-467A-A83B-CCCA6CF4DA51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
