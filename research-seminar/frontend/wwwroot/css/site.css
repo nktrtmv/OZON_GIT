@@ -1,0 +1,57 @@
+﻿html {
+  font-size: 40px;
+}
+
+body.bgImage{
+  background-image: url("../images/Excellent.png");
+  background-size: 100%;
+}
+
+input.styled {
+  position: relative;
+  top: 480px;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 2.3rem;
+  text-align: center;
+  color: #e49766;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 40px;
+  background-color: #000000;
+  border-width: 2px;
+}
+
+div.bgImage {
+  background-image: url("../images/Excellent.png");
+}
+
+div.user {
+  position: relative;
+  top: 350px;
+}
+
+div.header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  
+}
+
+.bigFont {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}

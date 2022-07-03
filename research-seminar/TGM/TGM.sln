@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGM", "TGM\TGM.csproj", "{F6FDFC59-80CE-462D-AAD9-C0546B4CD04B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6FDFC59-80CE-462D-AAD9-C0546B4CD04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FDFC59-80CE-462D-AAD9-C0546B4CD04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FDFC59-80CE-462D-AAD9-C0546B4CD04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FDFC59-80CE-462D-AAD9-C0546B4CD04B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

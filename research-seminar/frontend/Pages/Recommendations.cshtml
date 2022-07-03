@@ -1,0 +1,17 @@
+@page
+@model nis_front_razer.Pages.Recommendations
+
+@{
+    ViewData["Title"] = "Recommendations";
+}
+
+<div>
+    <h1>Ваш балл: @Model.Score/100</h1>
+    <h1>@Model.RecommendationsHeader</h1><br/>
+    <ul>
+        @foreach (var topic in @Model.Topics)
+        {
+            <li>@topic</li><br/>
+        }
+    </ul>
+</div>

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ufylmahgW+rW4LZJvsh2NO+w4hNq5RMiKLdvT20OWFizjjxmv/9hMqB6+7SjPyOQA67jyyGDlHVJvl1qnmDKdg==",
+  "success": true,
+  "projectFilePath": "/Users/nktrtmv/Desktop/Research-seminar/TRGM/TRGM/TRGM.csproj",
+  "expectedPackageFiles": [
+    "/Users/nktrtmv/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/nktrtmv/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

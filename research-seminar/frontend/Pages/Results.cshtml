@@ -1,0 +1,29 @@
+@page
+@model nis_front_razer.Pages.Results
+
+@{
+}
+
+<div>
+    <form method="post">
+        <ul>
+            @for (int i = 0; i < Model.TestTasks.Count; i++)
+            {
+                <li>
+                    <p>№@(i + 1). @Model.TestTasks[i]</p>
+                    @{
+                        var color = "";
+                        if (Model.Validations[i])
+                            color = "#198754";
+                        else
+                            color = "#a52834";
+                    }
+                    <input style="background-color: @color; color: #ffffff; opacity: 0.5" type="text" value="@Model.Answers[i]" disabled="disabled"/>
+                    <br/><br/><br/>
+                </li>
+            }
+        </ul>
+        <input type="submit" value="Получить рекомендации">
+    </form>
+
+</div>

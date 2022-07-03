@@ -1,0 +1,27 @@
+@page
+@model nis_front_razer.Pages.User
+
+@{
+    ViewData["Title"] = "Ввод";
+}
+
+<body class="bgImage">
+<div class="text-center user">
+    <form method="post">
+        <p class="bigFont" style="color: #ffffff">Выберите класс: </p>
+        <select class="bigFont" asp-for="UserModel.Level">
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+        </select>
+        <br/><br/>
+        <p class="bigFont" style="color: #ffffff">Выберите предмет: </p>
+        <select class="bigFont" asp-for="UserModel.Subject">
+            <option value="math">Математика</option>
+            <option value="rus">Русский язык</option>
+        </select><br/><br/>
+        
+        <input class="bigFont"  type="submit" value="Начать тест">
+    </form>
+</div>
+</body>

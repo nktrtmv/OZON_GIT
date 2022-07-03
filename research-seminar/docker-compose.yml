@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  TGM:
+    image: tgm
+    build: .
+    ports:
+        - "5022:80"
+  
+  TRAM:
+    image: tram
+    build: .
+    ports:
+        - "5065:80"
+
+
+  TRGM:
+    image: trgm
+    build: .
+    ports:
+        - "5082:80"
+
+  TPM:
+    image: tpm
+    build: .
+    ports:
+        - "8000:80"
+
+  frontend:
+    image: frontend
+    build: .
+    ports:
+        - "7001:80"
